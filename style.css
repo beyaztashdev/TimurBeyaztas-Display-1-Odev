@@ -1,0 +1,59 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.actors {
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+img {
+  max-width: 98%;
+  padding: 10px;
+}
+
+.yorum {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.tanitim {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.izle {
+  text-align: center;
+  padding: 10px 0;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #05b177;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.izle:hover {
+  background-color: #4ab6e0;
+}
